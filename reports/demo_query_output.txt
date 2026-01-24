@@ -1,0 +1,15 @@
+Loading signatures...
+  Loaded 119 signature records
+Loading registry...
+  Loaded 119 registry records
+Applying structural filters...
+  7 candidates after filtering
+
+=== Results (3 of 7 candidates) ===
+
+Corpus: old_claude_v2 | Model: Claude | Session: session_002 | Segment: seg_002
+  Type: Synthesis Trigger (minimal input → extended output) | Signature: SYNTHESIZE | Score: N/A
+Corpus: old_claude_v2 | Model: Claude | Session: session_008 | Segment: seg_002
+  Type: Synthesis Trigger | Signature: SYNTHESIZE | Score: N/A
+Corpus: old_claude_v2 | Model: Claude | Session: session_008 | Segment: seg_003
+  Type: Synthesis Trigger (Multi-turn) | Signature: SYNTHESIZE | Score: N/A

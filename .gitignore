@@ -1,0 +1,21 @@
+# Data files (contain segment text)
+*.jsonl
+*.index
+*.npy
+
+# Source transcripts
+raw_transcript.md
+dialogues/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
