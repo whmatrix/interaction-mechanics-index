@@ -21,8 +21,8 @@ Both indices share aligned metadata rows by segment UID, enabling queries that c
 
 | Corpus | Path | Model Family |
 |--------|------|--------------|
-| OLD GPT v1 | `/home/wade/professional_clear/portfolio_indexing_projects/human-ai-dialogue-artifacts/` | GPT |
-| OLD CLAUDE v2 | `/home/wade/professional_clear/research-corpus-v2-old-claude/` | Claude |
+| OLD GPT v1 | `./corpus/old_gpt_v1/` (local source corpus) | GPT |
+| OLD CLAUDE v2 | `./corpus/old_claude_v2/` (local source corpus) | Claude |
 
 **Source Documents:**
 - `dialogues/session_*/raw_transcript.md` — verbatim transcript

@@ -20,8 +20,8 @@ The following corpora must exist and be unchanged:
 
 | Corpus | Path |
 |--------|------|
-| OLD GPT v1 | `/home/wade/professional_clear/portfolio_indexing_projects/human-ai-dialogue-artifacts/` |
-| OLD CLAUDE v2 | `/home/wade/professional_clear/research-corpus-v2-old-claude/` |
+| OLD GPT v1 | `./corpus/old_gpt_v1/` (local source corpus) |
+| OLD CLAUDE v2 | `./corpus/old_claude_v2/` (local source corpus) |
 
 ---
 
@@ -29,9 +29,9 @@ The following corpora must exist and be unchanged:
 
 ### Working Directory
 
-All commands assume:
+All commands assume you are in the repository root:
 ```bash
-cd /home/wade/professional_clear/interaction_mechanics_index/
+cd <repo-root>/
 ```
 
 ### Step 1: Build Segment Registry
@@ -156,7 +156,7 @@ For complete rebuild from scratch:
 #!/bin/bash
 set -e
 
-cd /home/wade/professional_clear/interaction_mechanics_index/
+cd <repo-root>/
 
 echo "=== Step 1: Build Segment Registry ==="
 nice -n 15 ionice -c2 -n7 python3 scripts/build_segment_registry.py
@@ -196,8 +196,8 @@ If `intfloat/e5-small-v2` download fails:
 
 Verify source paths exist:
 ```bash
-ls -d /home/wade/professional_clear/portfolio_indexing_projects/human-ai-dialogue-artifacts/dialogues/session_*
-ls -d /home/wade/professional_clear/research-corpus-v2-old-claude/dialogues/session_*
+ls -d ./corpus/old_gpt_v1/dialogues/session_*
+ls -d ./corpus/old_claude_v2/dialogues/session_*
 ```
 
 ### FAISS Import Error

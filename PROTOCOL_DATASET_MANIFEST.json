@@ -14,12 +14,12 @@
     "old_gpt_v1": {
       "sessions": 6,
       "segments": 39,
-      "source_path": "/home/wade/professional_clear/portfolio_indexing_projects/human-ai-dialogue-artifacts/"
+      "source_path": "./corpus/old_gpt_v1/"
     },
     "old_claude_v2": {
       "sessions": 8,
       "segments": 80,
-      "source_path": "/home/wade/professional_clear/research-corpus-v2-old-claude/"
+      "source_path": "./corpus/old_claude_v2/"
     }
   },
   "artifacts": {
