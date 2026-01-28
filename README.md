@@ -17,18 +17,20 @@ Both indices share aligned metadata rows by segment UID, enabling queries that c
 
 ---
 
-## Input Corpora (Read-Only)
+## Input Corpora
 
-| Corpus | Path | Model Family |
-|--------|------|--------------|
-| OLD GPT v1 | `./corpus/old_gpt_v1/` (local source corpus) | GPT |
-| OLD CLAUDE v2 | `./corpus/old_claude_v2/` (local source corpus) | Claude |
+This repository builds indices from two dialogue corpora:
 
-**Source Documents:**
-- `dialogues/session_*/raw_transcript.md` — verbatim transcript
-- `dialogues/session_*/structural_segmentation.md` — segment boundaries
-- `dialogues/session_*/metadata.json` — session metadata
-- `dialogues/session_*/audit_notes.md` — structural flags (optional)
+| Corpus | Model Family | Segments |
+|--------|-------------|----------|
+| Research Corpus v1 (GPT) | GPT | 37 segments across 6 sessions |
+| Research Corpus v2 (Claude) | Claude | 80 segments across 8 sessions |
+
+Source dialogue transcripts are private research material. This repo contains the derived indices, segment registry, and query infrastructure.
+
+For the grammar analysis these corpora produced, see:
+- [comparative-grammar-gpt-vs-claude](https://github.com/whmatrix/comparative-grammar-gpt-vs-claude) — Structural comparison of GPT and Claude dialogue grammars
+- [structural-collaboration-primitives](https://github.com/whmatrix/structural-collaboration-primitives) — Interaction primitives derived from these grammars
 
 ---
 
