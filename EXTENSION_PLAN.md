@@ -53,7 +53,7 @@ Extension follows the established phase sequence:
 
 | Rule | Requirement |
 |------|-------------|
-| Separate corpus directory | `./corpus/<model>/` (isolated local source corpus) |
+| Separate corpus directory | `./corpus/<model>/` (isolated per-model directory) |
 | Independent typology map | `segment_typology_map.md` derived without reference to other models |
 | Separate registry emission | New JSONL with `corpus_id: "old_<model>_v3"` |
 | No index merging | Separate FAISS indices until crosswalk validated |

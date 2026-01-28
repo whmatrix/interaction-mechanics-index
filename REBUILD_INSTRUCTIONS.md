@@ -20,8 +20,10 @@ The following corpora must exist and be unchanged:
 
 | Corpus | Path |
 |--------|------|
-| OLD GPT v1 | `./corpus/old_gpt_v1/` (local source corpus) |
-| OLD CLAUDE v2 | `./corpus/old_claude_v2/` (local source corpus) |
+| Research Corpus v1 (GPT) | `./corpus/old_gpt_v1/` |
+| Research Corpus v2 (Claude) | `./corpus/old_claude_v2/` |
+
+**Note:** Source dialogue transcripts are private research material. These directories are not included in the public repository. The rebuild instructions are provided for reproducibility documentation.
 
 ---
 
@@ -194,10 +196,9 @@ If `intfloat/e5-small-v2` download fails:
 
 ### Corpus Not Found
 
-Verify source paths exist:
+Source corpora are private research material. If rebuilding from your own dialogue data, verify your corpus paths exist:
 ```bash
-ls -d ./corpus/old_gpt_v1/dialogues/session_*
-ls -d ./corpus/old_claude_v2/dialogues/session_*
+ls -d ./corpus/<your_corpus>/dialogues/session_*
 ```
 
 ### FAISS Import Error
