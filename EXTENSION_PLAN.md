@@ -11,7 +11,7 @@
 This document defines preconditions, phases, and isolation rules for extending the interaction mechanics index to:
 - New model families
 - New temporal eras
-- New operators (non-Wade users)
+- New operators (non-original users)
 
 No extension should be executed without completing the relevant checklist (see EXTENSION_CHECKLIST.md).
 
@@ -115,11 +115,11 @@ Before merging new-era data into existing indices:
 
 ---
 
-## C. New Operator (Non-Wade User)
+## C. New Operator (Non-Original User)
 
 ### C.1 Definition
 
-A new operator is any user other than the original corpus operator (Wade).
+A new operator is any user other than the original corpus operator (John Mitchell).
 
 Operator change introduces:
 - Different interaction style

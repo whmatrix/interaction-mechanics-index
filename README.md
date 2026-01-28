@@ -1,3 +1,5 @@
+> **Author:** John Mitchell (@whmatrix)
+
 # Interaction Mechanics Index
 
 **Created:** 2025-01-23
