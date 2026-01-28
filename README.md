@@ -100,4 +100,7 @@ This build respects existing GPU workloads:
 
 ---
 
-**END OF README**
+## Related
+
+- [comparative-grammar-gpt-vs-claude](https://github.com/whmatrix/comparative-grammar-gpt-vs-claude) — Source grammar comparison providing the segment typologies
+- [structural-collaboration-primitives](https://github.com/whmatrix/structural-collaboration-primitives) — Primitive definitions used in the structural index
